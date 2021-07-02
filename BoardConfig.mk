@@ -21,5 +21,9 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
+# Vendor init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_RMX1971
+TARGET_RECOVERY_DEVICE_MODULES := libinit_RMX1971
+
 # Inherit from the proprietary version
 -include vendor/realme/RMX1971/BoardConfigVendor.mk
