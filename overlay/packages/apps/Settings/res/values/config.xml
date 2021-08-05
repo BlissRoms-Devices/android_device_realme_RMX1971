@@ -34,4 +34,7 @@
 <!-- Smart Charging -->
     <bool name="config_supportSmartFeatures">true</bool>
 
+<!-- Maintainers -->
+    <string name="bliss_maintainer">KSSRAO</string>
+
 </resources>
