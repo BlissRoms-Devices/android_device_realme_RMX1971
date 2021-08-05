@@ -24,3 +24,4 @@ cc_library_static {
         "system/core/init"
     ],
     shared_libs: ["libbase"],
+}
